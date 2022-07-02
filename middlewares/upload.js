@@ -1,5 +1,5 @@
 const multer = require("multer");
-const multerConfig = require("../multer/multerConfig");
+const { multerConfig } = require("../config");
 
 const upload = multer({
   storage: multerConfig,
